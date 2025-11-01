@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>The Luxe Edit — Where Luxury Meets Everyday Elegance</title>
+  <link rel="icon" href="assets/images/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html" class="logo">The Luxe Edit</a>
+      </div>
+      <nav class="nav">
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html" class="cart-link">Cart <span id="cart-count">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="https://images.unsplash.com/photo-1503602642458-232111445657?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Hero" class="hero-image">
+      <div class="hero-content container">
+        <h1 class="hero-title">Where Luxury Meets Everyday Elegance</h1>
+        <p class="hero-sub">Discover our curated collection of handcrafted handbags — timeless pieces for the modern muse.</p>
+        <p><a class="btn" href="shop.html">Shop the Collection</a></p>
+      </div>
+    </section>
+
+    <section class="featured container">
+      <h2>Featured Handbags</h2>
+      <div id="featured-grid" class="grid"></div>
+    </section>
+
+    <section class="about-brief container">
+      <div class="about-card">
+        <h3>Our Craft</h3>
+        <p>Each bag is crafted with attention to detail and quality materials — made to become a staple in your wardrobe.</p>
+      </div>
+      <div class="about-card">
+        <h3>Sustainable Luxury</h3>
+        <p>We source responsibly and prioritize longevity — because true luxury stands the test of time.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <h4>The Luxe Edit</h4>
+        <p class="muted">Minimal bags. Thoughtful design.</p>
+      </div>
+      <div>
+        <h5>Connect</h5>
+        <p class="muted">Instagram • Email • Contact</p>
+      </div>
+      <div>
+        <h5>Newsletter</h5>
+        <input id="newsletter" placeholder="Your email" aria-label="newsletter">
+        <button id="subscribe-btn" class="btn small">Subscribe</button>
+      </div>
+    </div>
+    <div class="copyright">© <span id="year"></span> The Luxe Edit</div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
